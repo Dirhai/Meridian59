@@ -1,4 +1,5 @@
 // Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
+// Meridian 59, Copyright 1994-2012 Andrew Kirmse and Chris Kirmse.
 // All rights reserved.
 //
 // This software is distributed under a license that is described in
@@ -261,10 +262,10 @@ typedef struct {
 } FormatCode;
 
 static FormatCode code_table[] = {
-{ 'r', CODE_COLOR, PALETTERGB(128,   0,   0) },
-{ 'g', CODE_COLOR, PALETTERGB(  0, 100,   0) },
-{ 'b', CODE_COLOR, PALETTERGB(  0,   0, 255) },
-{ 'k', CODE_COLOR, PALETTERGB(  0,   0,   0) },
+{ 'r', CODE_COLOR, PALETTERGB(225, 119, 119) },
+{ 'g', CODE_COLOR, PALETTERGB(132, 228, 132) },
+{ 'b', CODE_COLOR, PALETTERGB(124, 191, 255) },
+{ 'k', CODE_COLOR, PALETTERGB(128, 128, 128) },
 { 'w', CODE_COLOR, PALETTERGB(255, 255, 255) },
 { 'B', CODE_STYLE, STYLE_BOLD },
 { 'I', CODE_STYLE, STYLE_ITALIC },
